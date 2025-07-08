@@ -17,32 +17,87 @@ const tierListData = {
   description: "Complete tier list for All Star Tower Defense X units",
   tiers: [
     {
-      id: "s-plus",
-      name: "S+",
-      color: "#ff3064",
+      id: "s-plus-plus",
+      name: "S++",
+      color: "#ff579c",
       units: [
-        // {
-        //   id: "jin-sung",
-        //   name: "Jin Sung",
-        //   imageUrl:
-        //     "https://progameguides.com/wp-content/uploads/2025/07/-all-star-tower-defense-x.png",
-        //   alt: "Jin Sung unit from the All Star Tower Defense X Roblox experience.",
-        //   tier: "S+",
-        // },
+        {
+          id: "michishibo",
+          name: "Michishibo",
+          imageUrl:
+            "https://progameguides.com/wp-content/uploads/2025/07/michishibo-all-star-tower-defense-x.png",
+          alt: "Michishibo unit from the All Star Tower Defense X Roblox experience.",
+          tier: "S++",
+        },
+        {
+          id: "etri",
+          name: "Etri",
+          imageUrl:
+            "https://progameguides.com/wp-content/uploads/2025/07/etri-all-star-tower-defense-x.png",
+          alt: "Etri unit from the All Star Tower Defense X Roblox experience.",
+          tier: "S++",
+        },
+        {
+          id: "venus",
+          name: "Venus",
+          imageUrl:
+            "https://progameguides.com/wp-content/uploads/2025/07/venus-all-star-tower-defense-x.png",
+          alt: "Venus unit from the All Star Tower Defense X Roblox experience.",
+          tier: "S++",
+        },
+        {
+          id: "whitestache",
+          name: "Whitestache",
+          imageUrl:
+            "https://progameguides.com/wp-content/uploads/2025/07/whitestache-all-star-tower-defense-x.png",
+          alt: "Whitestache unit from the All Star Tower Defense X Roblox experience.",
+          tier: "S++",
+        },
         {
           id: "dark-wing",
           name: "Dark Wing",
           imageUrl:
             "https://progameguides.com/wp-content/uploads/2025/07/dark-wing-all-star-tower-defense-x.png",
           alt: "Dark Wing unit from the All Star Tower Defense X Roblox experience.",
-          tier: "S+",
+          tier: "S++",
         },
         {
-          id: "yuni",
-          name: "Yuni",
+          id: "onwin",
+          name: "Onwin",
           imageUrl:
-            "https://progameguides.com/wp-content/uploads/2025/07/yuni-all-star-tower-defense-x.png",
-          alt: "Yuni unit from the All Star Tower Defense X Roblox experience.",
+            "https://progameguides.com/wp-content/uploads/2025/07/onwin-all-star-tower-defense-x.png",
+          alt: "Onwin unit from the All Star Tower Defense X Roblox experience.",
+          tier: "S++",
+        },
+        {
+          id: "jin-sung",
+          name: "Jin Sung",
+          imageUrl:
+            "https://progameguides.com/wp-content/uploads/2025/07/jin-sung-all-star-tower-defense-x.png",
+          alt: "Jin Sung unit from the All Star Tower Defense X Roblox experience.",
+          tier: "S++",
+        },
+        {
+          id: "super-borul-godess",
+          name: "Super Borul Godess",
+          imageUrl:
+            "https://progameguides.com/wp-content/uploads/2025/07/super-borul-godess-all-star-tower-defense-x.png",
+          alt: "Super Borul unit from the All Star Tower Defense X Roblox experience.",
+          tier: "S++",
+        },
+      ],
+    },
+    {
+      id: "s-plus",
+      name: "S+",
+      color: "#ad55ff",
+      units: [
+        {
+          id: "super-god-koku-godess",
+          name: "Super God Koku Godess",
+          imageUrl:
+            "https://progameguides.com/wp-content/uploads/2025/07/super-god-koku-godess-all-star-tower-defense-x.png",
+          alt: "Super God Koku unit from the All Star Tower Defense X Roblox experience.",
           tier: "S+",
         },
         {
@@ -51,22 +106,6 @@ const tierListData = {
           imageUrl:
             "https://progameguides.com/wp-content/uploads/2025/07/the-strongest-one-all-star-tower-defense-x.png",
           alt: "The Strongest One",
-          tier: "S+",
-        },
-        {
-          id: "slayer-mage",
-          name: "Slayer Mage",
-          imageUrl:
-            "https://progameguides.com/wp-content/uploads/2025/07/slayer-mage-all-star-tower-defense-x.png",
-          alt: "Slayer Mage unit from the All Star Tower Defense X Roblox experience.",
-          tier: "S+",
-        },
-        {
-          id: "mysterious-x",
-          name: "Mysterious X",
-          imageUrl:
-            "https://progameguides.com/wp-content/uploads/2025/07/mysterious-x-all-star-tower-defense-x.png",
-          alt: "Mysterious X unit from the All Star Tower Defense X Roblox experience.",
           tier: "S+",
         },
         {
@@ -93,51 +132,83 @@ const tierListData = {
           alt: "Blackstache unit from the All Star Tower Defense X Roblox experience.",
           tier: "S+",
         },
-      ],
-    },
-    {
-      id: "s",
-      name: "S",
-      color: "#9b31ff",
-      units: [
         {
           id: "zorro",
           name: "Zorro",
           imageUrl:
             "https://progameguides.com/wp-content/uploads/2025/07/zorro-all-star-tower-defense-x.png",
           alt: "Zorro unit from the All Star Tower Defense X Roblox experience.",
-          tier: "S",
+          tier: "S+",
         },
         {
-          id: "explosion-artist",
-          name: "Explosion Artist",
+          id: "water-godess",
+          name: "Water Godess",
           imageUrl:
-            "https://progameguides.com/wp-content/uploads/2025/07/explosion-artist-all-star-tower-defense-x.png",
-          alt: "Explosion Artist unit from the All Star Tower Defense X Roblox experience.",
-          tier: "S",
+            "https://progameguides.com/wp-content/uploads/2025/07/water-godess-all-star-tower-defense-x.png",
+          alt: "Water Godess unit from the All Star Tower Defense X Roblox experience.",
+          tier: "S+",
         },
         {
-          id: "venus",
-          name: "Venus",
+          id: "slayer-mage",
+          name: "Slayer Mage",
           imageUrl:
-            "https://progameguides.com/wp-content/uploads/2025/07/venus-all-star-tower-defense-x.png",
-          alt: "Venus unit from the All Star Tower Defense X Roblox experience.",
-          tier: "S",
+            "https://progameguides.com/wp-content/uploads/2025/07/slayer-mage-all-star-tower-defense-x.png",
+          alt: "Slayer Mage unit from the All Star Tower Defense X Roblox experience.",
+          tier: "S+",
         },
-        {
-          id: "whitestache",
-          name: "Whitestache",
-          imageUrl:
-            "https://cdn.discordapp.com/attachments/996012348722659368/1391406680427855933/image.png?ex=686bc7f3&is=686a7673&hm=5b3f5e1084d886022768c31918d5c405bef4363bde4824b2deaa4dc7cbfcd444&",
-          alt: "Whitestache unit from the All Star Tower Defense X Roblox experience.",
-          tier: "S",
-        },
+      ],
+    },
+    {
+      id: "s",
+      name: "S",
+      color: "#ff2222",
+      units: [
         {
           id: "airren",
           name: "Airren",
           imageUrl:
             "https://progameguides.com/wp-content/uploads/2025/07/airren-all-star-tower-defense-x.png",
           alt: "Airren unit from the All Star Tower Defense X Roblox experience.",
+          tier: "S",
+        },
+        {
+          id: "mysterious-x",
+          name: "Mysterious X",
+          imageUrl:
+            "https://progameguides.com/wp-content/uploads/2025/07/mysterious-x-all-star-tower-defense-x.png",
+          alt: "Mysterious X unit from the All Star Tower Defense X Roblox experience.",
+          tier: "S",
+        },
+        {
+          id: "ikki-hollow",
+          name: "Ikki Hollow",
+          imageUrl:
+            "https://progameguides.com/wp-content/uploads/2025/07/ikki-hollow-all-star-tower-defense-x.png",
+          alt: "Ikki Hollow unit from the All Star Tower Defense X Roblox",
+          tier: "S",
+        },
+        {
+          id: "zaruto-beast-cloak",
+          name: "Zaruto Beast Cloak",
+          imageUrl:
+            "https://progameguides.com/wp-content/uploads/2025/07/zaruto-beast-cloak-all-star-tower-defense-x.png",
+          alt: "Zaruto Beast Cloak unit from the All Star Tower Defense X Roblox experience.",
+          tier: "S",
+        },
+        {
+          id: "yuni",
+          name: "Yuni",
+          imageUrl:
+            "https://progameguides.com/wp-content/uploads/2025/07/yuni-all-star-tower-defense-x.png",
+          alt: "Yuni unit from the All Star Tower Defense X Roblox experience.",
+          tier: "S",
+        },
+        {
+          id: "kujo",
+          name: "Kujo",
+          imageUrl:
+            "https://progameguides.com/wp-content/uploads/2025/07/kujo-all-star-tower-defense-x.png",
+          alt: "Kujo unit from the All Star Tower Defense X Roblox experience.",
           tier: "S",
         },
         {
@@ -148,6 +219,14 @@ const tierListData = {
           alt: "Ramen Grill Master unit from the All Star Tower Defense X Roblox experience.",
           tier: "S",
         },
+        {
+          id: "shirtless-magician",
+          name: "Shirtless Magician",
+          imageUrl:
+            "https://progameguides.com/wp-content/uploads/2025/07/shirtless-magician-all-star-tower-defense-x.png",
+          alt: "Shirtless Magician unit from the All Star Tower Defense X Roblox experience.",
+          tier: "S",
+        },
       ],
     },
     {
@@ -156,11 +235,11 @@ const tierListData = {
       color: "#ff0000",
       units: [
         {
-          id: "shirtless-magician",
-          name: "Shirtless Magician",
+          id: "explosion-artist",
+          name: "Explosion Artist",
           imageUrl:
-            "https://progameguides.com/wp-content/uploads/2025/07/shirtless-magician-all-star-tower-defense-x.png",
-          alt: "Shirtless Magician unit from the All Star Tower Defense X Roblox experience.",
+            "https://progameguides.com/wp-content/uploads/2025/07/explosion-artist-all-star-tower-defense-x.png",
+          alt: "Explosion Artist unit from the All Star Tower Defense X Roblox experience.",
           tier: "A",
         },
         {
@@ -204,6 +283,14 @@ const tierListData = {
           tier: "A",
         },
         {
+          id: "ruffy-lobby",
+          name: "Ruffy (Lobby)",
+          imageUrl:
+            "https://progameguides.com/wp-content/uploads/2025/07/ruffy-lobby-all-star-tower-defense-x.png",
+          alt: "Ruffy (Lobby) unit from the All Star Tower Defense X Roblox experience.",
+          tier: "A",
+        },
+        {
           id: "ice-queen",
           name: "Ice Queen",
           imageUrl:
@@ -218,30 +305,6 @@ const tierListData = {
       name: "B",
       color: "#ff8c00",
       units: [
-        {
-          id: "super-koku",
-          name: "Super Koku",
-          imageUrl:
-            "https://progameguides.com/wp-content/uploads/2025/07/super-koku-all-star-tower-defense-x.png",
-          alt: "Super Koku unit from the All Star Tower Defense X Roblox experience.",
-          tier: "B",
-        },
-        {
-          id: "ruffy-lobby",
-          name: "Ruffy (Lobby)",
-          imageUrl:
-            "https://progameguides.com/wp-content/uploads/2025/07/ruffy-lobby-all-star-tower-defense-x.png",
-          alt: "Ruffy (Lobby) unit from the All Star Tower Defense X Roblox experience.",
-          tier: "B",
-        },
-        {
-          id: "stampede",
-          name: "Stampede",
-          imageUrl:
-            "https://progameguides.com/wp-content/uploads/2025/07/stampede-all-star-tower-defense-x.png",
-          alt: "Stampede unit from the All Star Tower Defense X Roblox experience.",
-          tier: "B",
-        },
         {
           id: "the-cursed-one",
           name: "The Cursed One",
@@ -259,11 +322,35 @@ const tierListData = {
           tier: "B",
         },
         {
+          id: "stampede",
+          name: "Stampede",
+          imageUrl:
+            "https://progameguides.com/wp-content/uploads/2025/07/stampede-all-star-tower-defense-x.png",
+          alt: "Stampede unit from the All Star Tower Defense X Roblox experience.",
+          tier: "B",
+        },
+        {
+          id: "super-koku",
+          name: "Super Koku",
+          imageUrl:
+            "https://progameguides.com/wp-content/uploads/2025/07/super-koku-all-star-tower-defense-x.png",
+          alt: "Super Koku unit from the All Star Tower Defense X Roblox experience.",
+          tier: "B",
+        },
+        {
           id: "ikki-halfmask",
           name: "Ikki Halfmask",
           imageUrl:
             "https://progameguides.com/wp-content/uploads/2025/07/ikki-halfmask-all-star-tower-defense-x.png",
           alt: "Ikki Halfmask unit from the All Star Tower Defense X Roblox experience.",
+          tier: "B",
+        },
+        {
+          id: "janji",
+          name: "Janji",
+          imageUrl:
+            "https://progameguides.com/wp-content/uploads/2025/07/janji-all-star-tower-defense-x.png",
+          alt: "Janji unit from the All Star Tower Defense X Roblox experience.",
           tier: "B",
         },
       ],
@@ -274,19 +361,19 @@ const tierListData = {
       color: "#ffd700",
       units: [
         {
-          id: "janji",
-          name: "Janji",
-          imageUrl:
-            "https://progameguides.com/wp-content/uploads/2025/07/janji-all-star-tower-defense-x.png",
-          alt: "Janji unit from the All Star Tower Defense X Roblox experience.",
-          tier: "C",
-        },
-        {
           id: "dual-servant",
           name: "Dual Servant",
           imageUrl:
             "https://progameguides.com/wp-content/uploads/2025/07/dual-servant-all-star-tower-defense-x.png",
           alt: "Dual Servant unit from the All Star Tower Defense X Roblox experience.",
+          tier: "C",
+        },
+        {
+          id: "zio-brundo-godess",
+          name: "Zio Brundo Godess",
+          imageUrl:
+            "https://progameguides.com/wp-content/uploads/2025/07/zio-brundo-godess-all-star-tower-defense-x.png",
+          alt: "Zio Brundo unit from the All Star Tower Defense X Roblox experience.",
           tier: "C",
         },
         {
@@ -374,6 +461,14 @@ const tierListData = {
           imageUrl:
             "https://progameguides.com/wp-content/uploads/2025/07/ruffy-all-star-tower-defense-x.png",
           alt: "Ruffy unit from the All Star Tower Defense X Roblox experience.",
+          tier: "D",
+        },
+        {
+          id: "lami",
+          name: "Lami",
+          imageUrl:
+            "https://progameguides.com/wp-content/uploads/2025/07/lami-all-star-tower-defense-x.png",
+          alt: "Lami unit from the All Star Tower Defense X Roblox experience.",
           tier: "D",
         },
       ],
